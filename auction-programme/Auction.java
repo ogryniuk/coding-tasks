@@ -3,12 +3,9 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * The programme creates a map of bidders and winning prices for each round.
- * It compares the amounts of bids with the previous winning price and acts based on the following rules:
- * 1. If the new bid is higher, the new price becomes the previous highest bid of the
- * opponents, plus the starting price.
- * 2. If the new bid lower, the winning price stays the same
- * 3. If the new bid is higher, but done by the same player, the winning price also stays the same
+ *  The class uses string and map manipulations to
+ *  retrieve largest key-value pairs based on the rules of the auction.
+ *  Afterwards, it collects these largest pairs into a new map
  * <p>
  */
 public class Auction_Level3 {
