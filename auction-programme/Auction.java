@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  *  The class uses string and map manipulations to
  *  retrieve largest key-value pairs based on the rules of the auction.
- *  Afterwards, it collects these largest pairs into a new map
+ *  Afterwards, it collects these pairs into a new map
  * <p>
  */
 public class Auction_Level3 {
