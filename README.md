@@ -1,2 +1,2 @@
 # coding-tasks
-Solutions to several coding challenges
+Solutions to a few coding challenges
